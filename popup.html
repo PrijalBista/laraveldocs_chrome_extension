@@ -2,11 +2,54 @@
 <html>
 <head>
 	<title>Laravel 5.8</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+
+		.page-container {
+			min-height: 100px;
+			width:200px;
+			font-family: Arial;
+			color:#444;
+		}
+		.page-header {
+			letter-spacing: .1em;
+		}
+		.page-header h3 {
+			color:#f4645f;
+		}
+		.page-footer ,.page-docs {
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+		}
+		a {
+			text-decoration: none;
+			color:#000;
+			padding:6px;
+			border-radius: 3px;
+		}
+		a:hover {
+			border:1px solid #95a5a6;			
+		}
+	</style>
 </head>
 <body>
-	<h1 class="header">Laravel(5.8) |Offline Docs</h1>
+<div class="page-container">
+	<div class="page-header">
+		<h3 class="header">Laravel(5.8) |Offline Docs</h3>
+		<p>An Open Source extension</p>
+		<hr>
+		<div class="page-docs">
+			<img src="images/gotodocs.png">
+			<a href="laravelDocs/5.html" target="_blank">Goto Laravel Docs</a>
+		</div>
+	</div>
 	<hr>
-	<a href="chrome-extension://mnobccpecdpdpdagcaddplefnpchaijo/laravelDocs/5.html" target="_blank">DOCS</a>
-	<a href="https://www.github.com/PrijalBista/laraveldocs_chrome_extension" target="_blank">Contribute</a>
+	<div class="page-footer">
+		<p>Help update this extension (in github)</p>
+		<img src="images/github.png">
+		<a href="https://github.com/PrijalBista/laraveldocs_chrome_extension" target="_blank">Github</a>
+	</div>
+</div>
 </body>
 </html>

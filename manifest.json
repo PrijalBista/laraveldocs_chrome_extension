@@ -6,6 +6,13 @@
     "browser_action": {
     	"default_popup": "popup.html"
     },
+
+    "icons": {
+      "16": "images/icon16px.png",
+      "32": "images/icon32px.png",
+      "48": "images/icon48px.png",
+      "128": "images/icon128px.png"
+    },
     
     "permissions": ["activeTab"]
   }
